@@ -1,5 +1,30 @@
-# Vue 3 + Vite
+# 佩伦 AI 检测与优化系统
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+基于深度学习的AI生成内容检测与优化系统，助力学术写作合规性。
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## ✨ 功能特性
+
+- 🕵️ AI生成内容概率检测（支持维普检测结果联动）
+- 🔍 检测过程实时可视化
+- 🛠️ 智能优化建议生成
+- 📝 修改前后文本对比功能
+- 🔑 API密钥安全管理
+
+## 🛠️ 技术栈
+
+- **前端框架**: Vue 3 + Pinia
+- **UI 组件**: Element Plus
+- **样式**: SCSS + 暗色主题
+- **AI 模型**: DeepSeek-R1
+- **构建工具**: Vite
+
+## 📦 快速开始
+
+### 环境要求
+- Node.js 18+
+- npm 9+
+
+### 安装运行
+```bash
+npm install
+npm run dev
